@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8FAE10234CEAAC00BB7ECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FAE0F234CEAAC00BB7ECC /* AppDelegate.swift */; };
+		3F8FAE12234CEAAC00BB7ECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FAE11234CEAAC00BB7ECC /* ViewController.swift */; };
+		3F8FAE15234CEAAC00BB7ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8FAE13234CEAAC00BB7ECC /* Main.storyboard */; };
+		3F8FAE17234CEAAE00BB7ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8FAE16234CEAAE00BB7ECC /* Assets.xcassets */; };
+		3F8FAE1A234CEAAE00BB7ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8FAE18234CEAAE00BB7ECC /* LaunchScreen.storyboard */; };
+		3F8FAE25234CEAAE00BB7ECC /* SmartLeafTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FAE24234CEAAE00BB7ECC /* SmartLeafTests.swift */; };
+		3F8FAE30234CEAAE00BB7ECC /* SmartLeafUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FAE2F234CEAAE00BB7ECC /* SmartLeafUITests.swift */; };
+		3F8FAE3E234CEAF100BB7ECC /* Planta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FAE3D234CEAF100BB7ECC /* Planta.swift */; };
+		3F8FAE40234CEB8600BB7ECC /* Solo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FAE3F234CEB8600BB7ECC /* Solo.swift */; };
+		3F8FAE42234D0AAC00BB7ECC /* PlantaDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FAE41234D0AAC00BB7ECC /* PlantaDAO.swift */; };
+		3F8FAE44234F915E00BB7ECC /* EstacionamentoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FAE43234F915E00BB7ECC /* EstacionamentoDAO.swift */; };
+		3FA5B8D42358D3C50087E3C7 /* PlantaUITableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5B8D32358D3C50087E3C7 /* PlantaUITableTableViewCell.swift */; };
+		3FA5B8D82358D4990087E3C7 /* PlantaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5B8D72358D4990087E3C7 /* PlantaTableViewController.swift */; };
+		3FA5B8DA2358E5800087E3C7 /* PlantaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5B8D92358E5800087E3C7 /* PlantaCollectionViewCell.swift */; };
+		3FA5B8DC2358E66C0087E3C7 /* PlantaCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5B8DB2358E66C0087E3C7 /* PlantaCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8FAE21234CEAAE00BB7ECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8FAE04234CEAAC00BB7ECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8FAE0B234CEAAC00BB7ECC;
+			remoteInfo = SmartLeaf;
+		};
+		3F8FAE2C234CEAAE00BB7ECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8FAE04234CEAAC00BB7ECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8FAE0B234CEAAC00BB7ECC;
+			remoteInfo = SmartLeaf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F8FAE0C234CEAAC00BB7ECC /* SmartLeaf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartLeaf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8FAE0F234CEAAC00BB7ECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F8FAE11234CEAAC00BB7ECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F8FAE14234CEAAC00BB7ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F8FAE16234CEAAE00BB7ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8FAE19234CEAAE00BB7ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F8FAE1B234CEAAE00BB7ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8FAE20234CEAAE00BB7ECC /* SmartLeafTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartLeafTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8FAE24234CEAAE00BB7ECC /* SmartLeafTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartLeafTests.swift; sourceTree = "<group>"; };
+		3F8FAE26234CEAAE00BB7ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8FAE2B234CEAAE00BB7ECC /* SmartLeafUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartLeafUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8FAE2F234CEAAE00BB7ECC /* SmartLeafUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartLeafUITests.swift; sourceTree = "<group>"; };
+		3F8FAE31234CEAAE00BB7ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8FAE3D234CEAF100BB7ECC /* Planta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planta.swift; sourceTree = "<group>"; };
+		3F8FAE3F234CEB8600BB7ECC /* Solo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solo.swift; sourceTree = "<group>"; };
+		3F8FAE41234D0AAC00BB7ECC /* PlantaDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantaDAO.swift; sourceTree = "<group>"; };
+		3F8FAE43234F915E00BB7ECC /* EstacionamentoDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EstacionamentoDAO.swift; path = ../../AppIOT/AppIOT/EstacionamentoDAO.swift; sourceTree = "<group>"; };
+		3FA5B8D32358D3C50087E3C7 /* PlantaUITableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantaUITableTableViewCell.swift; sourceTree = "<group>"; };
+		3FA5B8D72358D4990087E3C7 /* PlantaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantaTableViewController.swift; sourceTree = "<group>"; };
+		3FA5B8D92358E5800087E3C7 /* PlantaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantaCollectionViewCell.swift; sourceTree = "<group>"; };
+		3FA5B8DB2358E66C0087E3C7 /* PlantaCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantaCollectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8FAE09234CEAAC00BB7ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8FAE1D234CEAAE00BB7ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8FAE28234CEAAE00BB7ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8FAE03234CEAAC00BB7ECC = {
+			isa = PBXGroup;
+			children = (
+				3F8FAE0E234CEAAC00BB7ECC /* SmartLeaf */,
+				3F8FAE23234CEAAE00BB7ECC /* SmartLeafTests */,
+				3F8FAE2E234CEAAE00BB7ECC /* SmartLeafUITests */,
+				3F8FAE0D234CEAAC00BB7ECC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8FAE0D234CEAAC00BB7ECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8FAE0C234CEAAC00BB7ECC /* SmartLeaf.app */,
+				3F8FAE20234CEAAE00BB7ECC /* SmartLeafTests.xctest */,
+				3F8FAE2B234CEAAE00BB7ECC /* SmartLeafUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8FAE0E234CEAAC00BB7ECC /* SmartLeaf */ = {
+			isa = PBXGroup;
+			children = (
+				3FA5B8D72358D4990087E3C7 /* PlantaTableViewController.swift */,
+				3F8FAE0F234CEAAC00BB7ECC /* AppDelegate.swift */,
+				3F8FAE11234CEAAC00BB7ECC /* ViewController.swift */,
+				3F8FAE41234D0AAC00BB7ECC /* PlantaDAO.swift */,
+				3F8FAE43234F915E00BB7ECC /* EstacionamentoDAO.swift */,
+				3F8FAE13234CEAAC00BB7ECC /* Main.storyboard */,
+				3FA5B8DB2358E66C0087E3C7 /* PlantaCollectionViewController.swift */,
+				3FA5B8D92358E5800087E3C7 /* PlantaCollectionViewCell.swift */,
+				3FA5B8D32358D3C50087E3C7 /* PlantaUITableTableViewCell.swift */,
+				3F8FAE3D234CEAF100BB7ECC /* Planta.swift */,
+				3F8FAE3F234CEB8600BB7ECC /* Solo.swift */,
+				3F8FAE16234CEAAE00BB7ECC /* Assets.xcassets */,
+				3F8FAE18234CEAAE00BB7ECC /* LaunchScreen.storyboard */,
+				3F8FAE1B234CEAAE00BB7ECC /* Info.plist */,
+			);
+			path = SmartLeaf;
+			sourceTree = "<group>";
+		};
+		3F8FAE23234CEAAE00BB7ECC /* SmartLeafTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8FAE24234CEAAE00BB7ECC /* SmartLeafTests.swift */,
+				3F8FAE26234CEAAE00BB7ECC /* Info.plist */,
+			);
+			path = SmartLeafTests;
+			sourceTree = "<group>";
+		};
+		3F8FAE2E234CEAAE00BB7ECC /* SmartLeafUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8FAE2F234CEAAE00BB7ECC /* SmartLeafUITests.swift */,
+				3F8FAE31234CEAAE00BB7ECC /* Info.plist */,
+			);
+			path = SmartLeafUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8FAE0B234CEAAC00BB7ECC /* SmartLeaf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8FAE34234CEAAE00BB7ECC /* Build configuration list for PBXNativeTarget "SmartLeaf" */;
+			buildPhases = (
+				3F8FAE08234CEAAC00BB7ECC /* Sources */,
+				3F8FAE09234CEAAC00BB7ECC /* Frameworks */,
+				3F8FAE0A234CEAAC00BB7ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartLeaf;
+			productName = SmartLeaf;
+			productReference = 3F8FAE0C234CEAAC00BB7ECC /* SmartLeaf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F8FAE1F234CEAAE00BB7ECC /* SmartLeafTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8FAE37234CEAAE00BB7ECC /* Build configuration list for PBXNativeTarget "SmartLeafTests" */;
+			buildPhases = (
+				3F8FAE1C234CEAAE00BB7ECC /* Sources */,
+				3F8FAE1D234CEAAE00BB7ECC /* Frameworks */,
+				3F8FAE1E234CEAAE00BB7ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8FAE22234CEAAE00BB7ECC /* PBXTargetDependency */,
+			);
+			name = SmartLeafTests;
+			productName = SmartLeafTests;
+			productReference = 3F8FAE20234CEAAE00BB7ECC /* SmartLeafTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F8FAE2A234CEAAE00BB7ECC /* SmartLeafUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8FAE3A234CEAAE00BB7ECC /* Build configuration list for PBXNativeTarget "SmartLeafUITests" */;
+			buildPhases = (
+				3F8FAE27234CEAAE00BB7ECC /* Sources */,
+				3F8FAE28234CEAAE00BB7ECC /* Frameworks */,
+				3F8FAE29234CEAAE00BB7ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8FAE2D234CEAAE00BB7ECC /* PBXTargetDependency */,
+			);
+			name = SmartLeafUITests;
+			productName = SmartLeafUITests;
+			productReference = 3F8FAE2B234CEAAE00BB7ECC /* SmartLeafUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8FAE04234CEAAC00BB7ECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3F8FAE0B234CEAAC00BB7ECC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					3F8FAE1F234CEAAE00BB7ECC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3F8FAE0B234CEAAC00BB7ECC;
+					};
+					3F8FAE2A234CEAAE00BB7ECC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3F8FAE0B234CEAAC00BB7ECC;
+					};
+				};
+			};
+			buildConfigurationList = 3F8FAE07234CEAAC00BB7ECC /* Build configuration list for PBXProject "SmartLeaf" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8FAE03234CEAAC00BB7ECC;
+			productRefGroup = 3F8FAE0D234CEAAC00BB7ECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8FAE0B234CEAAC00BB7ECC /* SmartLeaf */,
+				3F8FAE1F234CEAAE00BB7ECC /* SmartLeafTests */,
+				3F8FAE2A234CEAAE00BB7ECC /* SmartLeafUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8FAE0A234CEAAC00BB7ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8FAE1A234CEAAE00BB7ECC /* LaunchScreen.storyboard in Resources */,
+				3F8FAE17234CEAAE00BB7ECC /* Assets.xcassets in Resources */,
+				3F8FAE15234CEAAC00BB7ECC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8FAE1E234CEAAE00BB7ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8FAE29234CEAAE00BB7ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8FAE08234CEAAC00BB7ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8FAE3E234CEAF100BB7ECC /* Planta.swift in Sources */,
+				3FA5B8D82358D4990087E3C7 /* PlantaTableViewController.swift in Sources */,
+				3F8FAE12234CEAAC00BB7ECC /* ViewController.swift in Sources */,
+				3F8FAE44234F915E00BB7ECC /* EstacionamentoDAO.swift in Sources */,
+				3FA5B8DC2358E66C0087E3C7 /* PlantaCollectionViewController.swift in Sources */,
+				3FA5B8D42358D3C50087E3C7 /* PlantaUITableTableViewCell.swift in Sources */,
+				3FA5B8DA2358E5800087E3C7 /* PlantaCollectionViewCell.swift in Sources */,
+				3F8FAE42234D0AAC00BB7ECC /* PlantaDAO.swift in Sources */,
+				3F8FAE40234CEB8600BB7ECC /* Solo.swift in Sources */,
+				3F8FAE10234CEAAC00BB7ECC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8FAE1C234CEAAE00BB7ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8FAE25234CEAAE00BB7ECC /* SmartLeafTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8FAE27234CEAAE00BB7ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8FAE30234CEAAE00BB7ECC /* SmartLeafUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8FAE22234CEAAE00BB7ECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8FAE0B234CEAAC00BB7ECC /* SmartLeaf */;
+			targetProxy = 3F8FAE21234CEAAE00BB7ECC /* PBXContainerItemProxy */;
+		};
+		3F8FAE2D234CEAAE00BB7ECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8FAE0B234CEAAC00BB7ECC /* SmartLeaf */;
+			targetProxy = 3F8FAE2C234CEAAE00BB7ECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F8FAE13234CEAAC00BB7ECC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8FAE14234CEAAC00BB7ECC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F8FAE18234CEAAE00BB7ECC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8FAE19234CEAAE00BB7ECC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8FAE32234CEAAE00BB7ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F8FAE33234CEAAE00BB7ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F8FAE35234CEAAE00BB7ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartLeaf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teste.SmartLeaf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F8FAE36234CEAAE00BB7ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartLeaf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teste.SmartLeaf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F8FAE38234CEAAE00BB7ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartLeafTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teste.SmartLeafTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartLeaf.app/SmartLeaf";
+			};
+			name = Debug;
+		};
+		3F8FAE39234CEAAE00BB7ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartLeafTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teste.SmartLeafTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartLeaf.app/SmartLeaf";
+			};
+			name = Release;
+		};
+		3F8FAE3B234CEAAE00BB7ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartLeafUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teste.SmartLeafUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartLeaf;
+			};
+			name = Debug;
+		};
+		3F8FAE3C234CEAAE00BB7ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartLeafUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teste.SmartLeafUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartLeaf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8FAE07234CEAAC00BB7ECC /* Build configuration list for PBXProject "SmartLeaf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8FAE32234CEAAE00BB7ECC /* Debug */,
+				3F8FAE33234CEAAE00BB7ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8FAE34234CEAAE00BB7ECC /* Build configuration list for PBXNativeTarget "SmartLeaf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8FAE35234CEAAE00BB7ECC /* Debug */,
+				3F8FAE36234CEAAE00BB7ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8FAE37234CEAAE00BB7ECC /* Build configuration list for PBXNativeTarget "SmartLeafTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8FAE38234CEAAE00BB7ECC /* Debug */,
+				3F8FAE39234CEAAE00BB7ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8FAE3A234CEAAE00BB7ECC /* Build configuration list for PBXNativeTarget "SmartLeafUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8FAE3B234CEAAE00BB7ECC /* Debug */,
+				3F8FAE3C234CEAAE00BB7ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8FAE04234CEAAC00BB7ECC /* Project object */;
+}
